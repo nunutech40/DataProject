@@ -1,0 +1,4 @@
+Name: Nunu, Age: 34
+Name: Putri, Age: 31
+Name: Karina, Age: 34
+Name: Ajeng, Age: 24

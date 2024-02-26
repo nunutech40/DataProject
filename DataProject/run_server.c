@@ -11,7 +11,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define PORT 8080
+#define PORT 80
 
 int main(int argc, const char * argv[]) {
     int server_fd, new_socket;

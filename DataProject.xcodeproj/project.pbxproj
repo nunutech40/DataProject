@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00AD4602B8EA8E200E7C0D0 /* baca_inputan.c in Sources */ = {isa = PBXBuildFile; fileRef = A00AD45F2B8EA8E200E7C0D0 /* baca_inputan.c */; };
+		A00AD4652B8EAE0000E7C0D0 /* menu_dan_exit.c in Sources */ = {isa = PBXBuildFile; fileRef = A00AD4642B8EAE0000E7C0D0 /* menu_dan_exit.c */; };
+		A09DAF702B8E354F00466512 /* testing.c in Sources */ = {isa = PBXBuildFile; fileRef = A09DAF6F2B8E354F00466512 /* testing.c */; };
+		A09DAF722B8E35B700466512 /* array_c.c in Sources */ = {isa = PBXBuildFile; fileRef = A09DAF712B8E35B700466512 /* array_c.c */; };
+		A0A89F582B92DE7B00DCFA62 /* complex_data.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A89F572B92DE7B00DCFA62 /* complex_data.c */; };
+		A0A89F5C2B92FFBD00DCFA62 /* testing2.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A89F5B2B92FFBD00DCFA62 /* testing2.c */; };
 		A0B633922B85AB2A00FC88D1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B633912B85AB2A00FC88D1 /* main.c */; };
 		A0B6339C2B85B39F00FC88D1 /* open_file.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339B2B85B39F00FC88D1 /* open_file.c */; };
 		A0B6339E2B85DC9E00FC88D1 /* read_datadb.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339D2B85DC9E00FC88D1 /* read_datadb.c */; };
@@ -27,6 +33,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A00AD45F2B8EA8E200E7C0D0 /* baca_inputan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = baca_inputan.c; sourceTree = "<group>"; };
+		A00AD4612B8EACF200E7C0D0 /* Doucumentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Doucumentation.md; sourceTree = "<group>"; };
+		A00AD4642B8EAE0000E7C0D0 /* menu_dan_exit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = menu_dan_exit.c; sourceTree = "<group>"; };
+		A09DAF6F2B8E354F00466512 /* testing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testing.c; sourceTree = "<group>"; };
+		A09DAF712B8E35B700466512 /* array_c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_c.c; sourceTree = "<group>"; };
+		A0A89F572B92DE7B00DCFA62 /* complex_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = complex_data.c; sourceTree = "<group>"; };
+		A0A89F5B2B92FFBD00DCFA62 /* testing2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testing2.c; sourceTree = "<group>"; };
 		A0B6338E2B85AB2A00FC88D1 /* DataProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B633912B85AB2A00FC88D1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A0B6339B2B85B39F00FC88D1 /* open_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = open_file.c; sourceTree = "<group>"; };
@@ -70,6 +83,13 @@
 				A0B6339D2B85DC9E00FC88D1 /* read_datadb.c */,
 				A0B6339F2B86DCCB00FC88D1 /* get_data_resource.c */,
 				A0F50C272B8B24C000A00D73 /* run_server.c */,
+				A09DAF6F2B8E354F00466512 /* testing.c */,
+				A09DAF712B8E35B700466512 /* array_c.c */,
+				A00AD45F2B8EA8E200E7C0D0 /* baca_inputan.c */,
+				A00AD4612B8EACF200E7C0D0 /* Doucumentation.md */,
+				A00AD4642B8EAE0000E7C0D0 /* menu_dan_exit.c */,
+				A0A89F572B92DE7B00DCFA62 /* complex_data.c */,
+				A0A89F5B2B92FFBD00DCFA62 /* testing2.c */,
 			);
 			path = DataProject;
 			sourceTree = "<group>";
@@ -131,11 +151,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A89F582B92DE7B00DCFA62 /* complex_data.c in Sources */,
 				A0B633A02B86DCCB00FC88D1 /* get_data_resource.c in Sources */,
 				A0F50C282B8B24C000A00D73 /* run_server.c in Sources */,
+				A09DAF702B8E354F00466512 /* testing.c in Sources */,
+				A09DAF722B8E35B700466512 /* array_c.c in Sources */,
+				A00AD4652B8EAE0000E7C0D0 /* menu_dan_exit.c in Sources */,
+				A00AD4602B8EA8E200E7C0D0 /* baca_inputan.c in Sources */,
 				A0B6339E2B85DC9E00FC88D1 /* read_datadb.c in Sources */,
 				A0B633922B85AB2A00FC88D1 /* main.c in Sources */,
 				A0B6339C2B85B39F00FC88D1 /* open_file.c in Sources */,
+				A0A89F5C2B92FFBD00DCFA62 /* testing2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

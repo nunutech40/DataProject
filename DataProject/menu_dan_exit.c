@@ -39,8 +39,6 @@ int main(int argc, const char * argv[]) {
             printf("Masukan umur:\n");
             scanf("%d", &umur);
             
-            
-            
             // bersihkan buffer input
             while (getchar() != '\n');
             printf("Nama anda %25s, dan umur anda %d telah di saved!\n", nama, umur);

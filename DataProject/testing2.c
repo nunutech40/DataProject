@@ -12,14 +12,20 @@ int main(int argc, const char *argv[]) {
     
     char nama[100];
     int age;
+    int *umur;
     strcpy(nama, "Nunu");
     printf("cek data nama: %s\n", nama);
     
     printf("Cek data alamat memory dari nama: %p\n", (void *)nama); // cek alamat memorynya
     
     age = 33;
-    printf("Umurnya: %d\n", age);
-    printf("Cek alamat memory dari umur: %p\n", (void *)&age);
+    printf("Agenya: %d\n", age);
+    printf("Cek alamat memory dari Age: %p\n", (void *)&age);
+    
+    umur = &age;
+    printf("Umurnya: %d\n", *umur);
+    printf("Cek alamat memory dari umur: %p\n", (void *)&umur);
+    
     
     return 0;
 }

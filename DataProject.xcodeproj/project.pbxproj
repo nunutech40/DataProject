@@ -17,6 +17,7 @@
 		A0B6339C2B85B39F00FC88D1 /* open_file.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339B2B85B39F00FC88D1 /* open_file.c */; };
 		A0B6339E2B85DC9E00FC88D1 /* read_datadb.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339D2B85DC9E00FC88D1 /* read_datadb.c */; };
 		A0B633A02B86DCCB00FC88D1 /* get_data_resource.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339F2B86DCCB00FC88D1 /* get_data_resource.c */; };
+		A0CC29252B948AF500528E3C /* save_complex_data_to_txt.c in Sources */ = {isa = PBXBuildFile; fileRef = A0CC29242B948AF500528E3C /* save_complex_data_to_txt.c */; };
 		A0F50C282B8B24C000A00D73 /* run_server.c in Sources */ = {isa = PBXBuildFile; fileRef = A0F50C272B8B24C000A00D73 /* run_server.c */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		A0B6339B2B85B39F00FC88D1 /* open_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = open_file.c; sourceTree = "<group>"; };
 		A0B6339D2B85DC9E00FC88D1 /* read_datadb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = read_datadb.c; sourceTree = "<group>"; };
 		A0B6339F2B86DCCB00FC88D1 /* get_data_resource.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = get_data_resource.c; sourceTree = "<group>"; };
+		A0CC29242B948AF500528E3C /* save_complex_data_to_txt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = save_complex_data_to_txt.c; sourceTree = "<group>"; };
 		A0F50C272B8B24C000A00D73 /* run_server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = run_server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				A00AD4612B8EACF200E7C0D0 /* Doucumentation.md */,
 				A00AD4642B8EAE0000E7C0D0 /* menu_dan_exit.c */,
 				A0A89F572B92DE7B00DCFA62 /* complex_data.c */,
+				A0CC29242B948AF500528E3C /* save_complex_data_to_txt.c */,
 				A0A89F5B2B92FFBD00DCFA62 /* testing2.c */,
 			);
 			path = DataProject;
@@ -154,6 +157,7 @@
 				A0A89F582B92DE7B00DCFA62 /* complex_data.c in Sources */,
 				A0B633A02B86DCCB00FC88D1 /* get_data_resource.c in Sources */,
 				A0F50C282B8B24C000A00D73 /* run_server.c in Sources */,
+				A0CC29252B948AF500528E3C /* save_complex_data_to_txt.c in Sources */,
 				A09DAF702B8E354F00466512 /* testing.c in Sources */,
 				A09DAF722B8E35B700466512 /* array_c.c in Sources */,
 				A00AD4652B8EAE0000E7C0D0 /* menu_dan_exit.c in Sources */,

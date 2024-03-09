@@ -151,3 +151,5 @@ int main() {
 ```
 
 Documentasi ini memberikan gambaran dasar tentang tipe data dan operasi yang dapat dilakukan dalam bahasa pemrograman C. Untuk penggunaan yang lebih lanjut dan kompleks, akan sangat berguna untuk merujuk pada dokumentasi bahasa C yang lebih lengkap dan detil.
+
+

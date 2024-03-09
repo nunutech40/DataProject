@@ -23,6 +23,8 @@
 		A0B6339E2B85DC9E00FC88D1 /* read_datadb.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339D2B85DC9E00FC88D1 /* read_datadb.c */; };
 		A0B633A02B86DCCB00FC88D1 /* get_data_resource.c in Sources */ = {isa = PBXBuildFile; fileRef = A0B6339F2B86DCCB00FC88D1 /* get_data_resource.c */; };
 		A0CC29252B948AF500528E3C /* save_complex_data_to_txt.c in Sources */ = {isa = PBXBuildFile; fileRef = A0CC29242B948AF500528E3C /* save_complex_data_to_txt.c */; };
+		A0D06DA12B9C855B0034E696 /* count_row.c in Sources */ = {isa = PBXBuildFile; fileRef = A0D06DA02B9C855B0034E696 /* count_row.c */; };
+		A0D06DAD2B9C91A60034E696 /* count_words.c in Sources */ = {isa = PBXBuildFile; fileRef = A0D06DAC2B9C91A60034E696 /* count_words.c */; };
 		A0F50C282B8B24C000A00D73 /* run_server.c in Sources */ = {isa = PBXBuildFile; fileRef = A0F50C272B8B24C000A00D73 /* run_server.c */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		A0B6339D2B85DC9E00FC88D1 /* read_datadb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = read_datadb.c; sourceTree = "<group>"; };
 		A0B6339F2B86DCCB00FC88D1 /* get_data_resource.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = get_data_resource.c; sourceTree = "<group>"; };
 		A0CC29242B948AF500528E3C /* save_complex_data_to_txt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = save_complex_data_to_txt.c; sourceTree = "<group>"; };
+		A0D06DA02B9C855B0034E696 /* count_row.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = count_row.c; sourceTree = "<group>"; };
+		A0D06DAC2B9C91A60034E696 /* count_words.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = count_words.c; sourceTree = "<group>"; };
 		A0F50C272B8B24C000A00D73 /* run_server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = run_server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,8 @@
 				A058C76B2B9B115D0006DDC0 /* count_tabs_blanks_newlines.c */,
 				A058C76D2B9B17EF0006DDC0 /* copy_input_tobe_output_trim_morespace.c */,
 				A058C76F2B9C19AA0006DDC0 /* copy_input_to_output_replace_char.c */,
+				A0D06DA02B9C855B0034E696 /* count_row.c */,
+				A0D06DAC2B9C91A60034E696 /* count_words.c */,
 			);
 			path = DataProject;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				A058C76C2B9B115D0006DDC0 /* count_tabs_blanks_newlines.c in Sources */,
 				A058C76E2B9B17EF0006DDC0 /* copy_input_tobe_output_trim_morespace.c in Sources */,
 				A0B633A02B86DCCB00FC88D1 /* get_data_resource.c in Sources */,
+				A0D06DA12B9C855B0034E696 /* count_row.c in Sources */,
 				A0F50C282B8B24C000A00D73 /* run_server.c in Sources */,
 				A0CC29252B948AF500528E3C /* save_complex_data_to_txt.c in Sources */,
 				A09DAF702B8E354F00466512 /* testing.c in Sources */,
@@ -182,6 +189,7 @@
 				A058C7702B9C19AA0006DDC0 /* copy_input_to_output_replace_char.c in Sources */,
 				A00AD4652B8EAE0000E7C0D0 /* menu_dan_exit.c in Sources */,
 				A00AD4602B8EA8E200E7C0D0 /* baca_inputan.c in Sources */,
+				A0D06DAD2B9C91A60034E696 /* count_words.c in Sources */,
 				A0B6339E2B85DC9E00FC88D1 /* read_datadb.c in Sources */,
 				A0B633922B85AB2A00FC88D1 /* main.c in Sources */,
 				A0B6339C2B85B39F00FC88D1 /* open_file.c in Sources */,
